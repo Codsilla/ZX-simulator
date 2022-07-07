@@ -1,0 +1,15 @@
+[package]
+name = "zx-simulator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quizx = { git = "https://github.com/Quantomatic/quizx", rev="a8ee57a3b5ea5a47d2cc5c9e8cb1e1abd8e44545" }
+kahypar = { path = "../../kahypar-rs" }
+num = "0.3.1"
+indicatif = "0.16.2"
+array_tool = "1.0.3"
+rayon = "1.5.3"
+rand = "0.8.5"
