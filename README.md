@@ -6,3 +6,4 @@ This is a quick and dirty implementation as it was develop as I was experimentin
 
 As of now the fastest decomposition function is `decomp_most_connected_cat` with `imbalence` set as 0.5.
 
+Note that you'll need to have a working build of KahyPar with bindings for rust which you can find [here](https://github.com/tuomas56/kahypar-rs). You will then have to update the dependencies to include your path to KaHyPar-rs.
